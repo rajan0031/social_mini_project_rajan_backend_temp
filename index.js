@@ -148,7 +148,7 @@ mongoose.connect("mongodb+srv://raykushwaha0031:C1k4maJXzH2vAmh4@blog.zlf5agh.mo
 
 
 app.get("/", (req, res) => {
-    res.send("this is home page");
+    res.send("this is home page and i am uploading the backend part of the render!");
 });
 
 
