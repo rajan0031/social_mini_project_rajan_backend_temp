@@ -13,6 +13,7 @@ const app = express();
 const router = require("express").Router();
 
 // Adjust the registration route
+
 app.post("/register", register);
 
 // adjust the login route

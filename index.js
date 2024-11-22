@@ -3,6 +3,7 @@ const mongoose = require("mongoose");
 const cors = require("cors")
 const app = express();
 
+
 // start of my web socket implimentations
 const socket = require("socket.io");
 
@@ -52,6 +53,8 @@ app.use(express.urlencoded({ extended: true }));
 
 
 require("dotenv").config();
+
+
 
 
 // Adjust the registration route
@@ -161,7 +164,7 @@ mongoose.connect("mongodb+srv://raykushwaha0031:C1k4maJXzH2vAmh4@blog.zlf5agh.mo
 });
 
 
-//e nd of the new way from the chat gpt
+//end of the new way from the chat gpt
 
 
 app.get("/", (req, res) => {
